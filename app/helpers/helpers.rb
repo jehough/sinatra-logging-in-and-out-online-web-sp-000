@@ -4,6 +4,8 @@ class Helpers
     user
   end
 
-  def self.is_logged_in?
+  def self.is_logged_in?(hash)
+    
+    
   end
 end
