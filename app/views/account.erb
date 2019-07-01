@@ -8,7 +8,7 @@
   <body id="page-top">
     <h1>Welcome <%= @user.username %></h1>
     <h2><%= @user.balance %></h2>
-    <form action="/logout" type="POST">
+    <form action="/logout" type="get">
       <input type="submit" value="Log Out" id="Log Out"/>
     </form>
 
